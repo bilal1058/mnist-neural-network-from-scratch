@@ -1177,28 +1177,3 @@ Learning Rate: 0.6
 * Matplotlib
 * TensorFlow Keras MNIST Dataset
 * Scikit-learn
-
----
-
-# Project Structure
-
-```text
-mnist-neural-network-from-scratch/
-│
-├── MNIST_Neural_Network_From_Scratch.ipynb
-└── README.md
-```
-
-The Jupyter Notebook contains the complete implementation, training process, evaluation, and visualizations.
-
----
-
-# Key Takeaway
-
-This project was implemented to understand what happens inside a neural network during training.
-
-Instead of using a high-level deep learning framework to automatically perform backpropagation and optimization, the core neural network operations were implemented manually with NumPy.
-
-The project provides a foundation for moving from neural networks implemented from scratch to modern deep learning frameworks such as PyTorch.
-
-The next step is to implement the same MNIST classification task using PyTorch and compare the manual NumPy implementation with automatic differentiation and built-in optimization tools.
